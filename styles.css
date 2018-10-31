@@ -1,0 +1,71 @@
+body {
+	font-family: 'Encode Sans Condensed', sans-serif;	
+	background: #43C6AC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+}
+
+
+.header {
+	width: 50%;
+	margin: 30px auto;
+	border: 2px solid white;
+
+
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	padding: 40px 40px;
+	border: 2px solid white;
+}
+
+.heading {
+	text-align: center;
+
+}
+
+.username {
+	text-align: left;
+	float: left;
+}
+
+.computername {
+	text-align: right;
+	float: right;
+}
+
+.currentscore {
+	margin-left: 50%;
+	font-weight: normal;
+	/* border: 1px dotted white; */
+	padding: 10px 10px;
+}
+
+button {
+	margin: 20px 30px;
+	width: 20%;
+	border: none;
+	background: #43C6AC;
+	color: white;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	padding: 20px 50px;
+	text-transform: uppercase;
+	
+
+}
+
+button:hover {
+	background: white;
+	color: #43C6AC;
+	font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+
+p {
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+}
